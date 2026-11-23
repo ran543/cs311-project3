@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  background: #f4f6fa;
+  color: #192638;
+}
+
+.pokemon-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+  gap: 16px;
+}
+
+.pokemon-grid .card img {
+  width: 96px;
+  height: 96px;
+  margin: 0 auto;
+}
